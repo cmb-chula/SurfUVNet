@@ -32,7 +32,7 @@ To running jupyter notebook server after install requirements , run the command 
 
 `jupyter notebook` or `jupyter notebook --port=7000` if you want to open jupyter server in port 7000 
 
-This command will open your server and give an jupyter url ex. localhost:7000. Copy and paste the url in your web browser. You will see list of file inside repo folder.
+This command will start your server and give an jupyter notebook url ex. localhost:7000. Copy and paste the url in your web browser. You will see list of file inside repo folder.
 
 The instruction for training model is in `Training_example.ipynb`.
 

@@ -42,5 +42,3 @@ The instruction for training model is in `Training_example.ipynb`.
 We provide forecasting instruction in `Prediction_example.ipynb` with generated example data.
 
  However, we provide weight for Seq2Seq-14 model that has encoder input length = 1190 (14 day * 85 timestep) and decoder input length = 85 with output length = 85. If you want to forecast with different input and output length, you have to train your own model.
-
-## Citation

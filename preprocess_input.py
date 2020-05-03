@@ -30,6 +30,10 @@ def normalized(data):
     max_train = 1980.64
     return (data/ max_train)+1e-5
 
+def denormalized(data):
+    max_train = 1980.64
+    return (data-1e-5)* max_train
+
 def buildData(
         df_tmp,
         df_tmp_2,

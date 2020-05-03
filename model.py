@@ -45,6 +45,4 @@ def create_model(
 
     model = models.Model([encoder_inputs, decoder_inputs], decoder_outputs)
 
-    model.compile(optimizer=optimizers.adam(lr=0.00005, decay=0.000001), loss=lambda y,y_pred: tilted_loss(quantile,y,y_pred))
-    
     return model

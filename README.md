@@ -1,4 +1,4 @@
-# SURFNet: Surface ultraviolet radiation forecasting with deep neural network
+# SurfUVNet: Surface ultraviolet radiation forecasting with deep neural network
 
 Our model performance for next-day anti-psoriasis-weighted ultraviolet forecasting with different input sizes (7, 14, or 21 days) on 2018 or 2019 ultraviolet radiation data during the summer and winter periods in Thailand (October-March).
 
